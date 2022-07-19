@@ -2,28 +2,18 @@
     <div class="main-container-layout">
         <header class="header">
             <div class="container-layout">
-                <div class="logo-img">
+                <!-- <div class="logo-img">
                     <a href="#"
                         ><img
                             width="50"
                             src="../../../assets/images/Logo1.jpg"
                             alt="Ảnh Logo"
                     /></a>
-                </div>
+                </div> -->
+
                 <button class="nav-toggler">
-                    <span></span>
+                    <span> </span>
                 </button>
-                <!-- <nav class="nav">
-            <ul>
-              <li class="nav-item"><a href="#Home">Home</a></li>
-              <li class="nav-item"><a href="#About">About</a></li>
-              <li class="nav-item"><a href="#Menu">Menu</a></li>
-              <li class="nav-item"><a href="#Testimonial">Testimonial</a></li>
-              <li class="nav-item"><a href="#Team">Team</a></li>
-              <li class="nav-item"><a href="#Booking">Booking</a></li>
-              <li class="nav-item"><a href="#Contact">Contact</a></li>
-            </ul>
-          </nav> -->
             </div>
         </header>
         <!--Header - end-->
@@ -32,9 +22,9 @@
             <div class="container-layout">
                 <div class="row-layout min-h-100">
                     <div class="home-text">
-                        <h1>Nhà hàng GR2</h1>
+                        <h1>Nhà hàng DATN</h1>
                         <p>Lưu luyến trong từng hương vị</p>
-                        <a href="#our-menu" class="button">Menu</a>
+                        <a href="#Order" class="button">Đặt bàn</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +40,7 @@
                 </div>
                 <div class="row-layout">
                     <div class="about-text">
-                        <h3>Chào mừng các bạn đến với GR2</h3>
+                        <h3>Chào mừng các bạn đến với DATN</h3>
                         <p>
                             Một nhà hàng nổi tiếng với những món ăn tuyệt vời, gắn liền
                             với tên tuổi của những đầu bếp nổi tiếng nhất Việt Nam!
@@ -60,7 +50,7 @@
                             lòng bởi dịch vụ hiện đai, món ăn tươi ngon, và bằng chính sự
                             chuyên nghiệp của chúng tôi.
                         </p>
-                        <a href="#our-menu" class="button">Xem menu</a>
+                        <a href="#Menu" class="button">Xem menu</a>
                     </div>
                     <div class="about-img">
                         <div class="img-box">
@@ -335,7 +325,7 @@
                         <h3>Liện hệ</h3>
                         <p>
                             Phone: 0377980440 <br />
-                            Email: UyenGR2@gmail.com
+                            Email: UyenDATN@gmail.com
                         </p>
                         <div class="social-item">
                             <i class="fab fa-facebook-f"></i>
@@ -347,7 +337,7 @@
                 </div>
                 <div class="row-layout">
                     <div class="copyright">
-                        <p>©20211. Project GR2</p>
+                        <p>©20211. Project DATN</p>
                     </div>
                 </div>
             </div>
@@ -453,15 +443,18 @@ export default class HomePage extends Vue {
     padding: 0;
     flex-wrap: wrap;
 }
+
 .demo-datetime-picker .block {
     padding: 30px 0;
     text-align: center;
     border-right: solid 1px var(--el-border-color-base);
     flex: 1;
 }
+
 .demo-datetime-picker .block:last-child {
     border-right: none;
 }
+
 .demo-datetime-picker .demonstration {
     display: block;
     color: var(--el-text-color-secondary);
