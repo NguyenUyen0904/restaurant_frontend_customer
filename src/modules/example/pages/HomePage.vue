@@ -382,7 +382,7 @@ export default class HomePage extends Vue {
     checkTime(): boolean {
         const now = new Date();
         if (now.getTime() > Date.parse(this.form.arrivalTime as string)) {
-            ElMessageBox.alert('Vui lòng chọn thời gian trong tương lai!', 'Chú ý', {
+            ElMessageBox.alert('Vui lòng chọn thời gian trong tương lai !', 'Chú ý', {
                 confirmButtonText: 'OK',
                 callback: () => {
                     this.form.arrivalTime = '';
